@@ -1,0 +1,66 @@
+.company-details {
+  background-color: #00385d;
+  color: white;
+  padding: 10px;
+}
+
+.nav-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-arrow {
+  color: white;
+}
+
+.settings-microphone {
+  display: flex;
+  gap: 15px;
+}
+
+.details-infos {
+  background-color: #1758A0;
+  color: white;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.details-info {
+  background-color: #00385d;
+  color: white;
+  padding: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-details-image {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1758A0;
+}
+
+a {
+  color: white;
+  align-items: center;
+}
+
+.loading {
+  color: white;
+}

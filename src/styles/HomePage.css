@@ -1,0 +1,38 @@
+.home-page {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.company {
+  background: url("../assets/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid #00385d;
+  width: 100%;
+  height: 150px;
+}
+
+.arrow {
+  display: flex;
+  padding-top: 10px;
+  justify-content: flex-end;
+  color: white;
+  padding-right: 15px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 28px;
+  color: white;
+  align-items: center;
+}
+
+.name, .symbol, .price {
+  padding: 0;
+  margin: 0;
+}

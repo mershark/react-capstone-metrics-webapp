@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #00385d;
+}
+
+.nav-date {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.nav-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+
+.set-micro {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  padding-right: 10px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  width: 90%;
+  padding: 0;
+  margin-bottom: 10px;
+  border: 3px solid white;
+}
