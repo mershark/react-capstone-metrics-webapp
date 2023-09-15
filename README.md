@@ -88,7 +88,7 @@
 
 ### 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo]()
+- [Live Demo](https://65046175974ccb299114ae96--boisterous-duckanoo-24eb89.netlify.app/)
 
 ### 🚀 Video <a name="live-demo"></a>
 
