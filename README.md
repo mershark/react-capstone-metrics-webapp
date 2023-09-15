@@ -31,7 +31,7 @@
 
 # 📖 React & Redux group project - Space Travelers' Hub <a name="about-project"></a>
 
-> In this project, we created the real live data from the SpaceX API. We build a web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions..
+> In this project I created a mobile web application using React and Redux that leverages an API to showcase company data. Users can explore a list of metrics on the homepage, filter them by parameters like country, and view detailed information on a separate page. The project adheres to coding best practices, follows Gitflow for version control, and emphasizes clear documentation.
 
 ## Built With
 
@@ -88,12 +88,16 @@
 
 ### 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://space-travelers-hub-bpgh.onrender.com/)
+- [Live Demo]()
+
+### 🚀 Video <a name="live-demo"></a>
+
+- [Video Walkthrough]()
 
 ### Key Features <a name="key-features"></a>
 
-- **Book Rockets**
-- **Join Selected Space**
+- **View Details of company**
+- **Search company**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +118,7 @@ Clone this repository to your desired folder by running the following commands i
 ```sh
   cd your-prefered-folder-name
   
-  git clone https://github.com/MozamelJawad/react-redux-group-project.git
+  git clone https://github.com/mershark/react-capstone-metrics-webapp.git
 ```
 
 ### Install
@@ -122,7 +126,7 @@ Clone this repository to your desired folder by running the following commands i
 - Install this project with:
 
 ```sh
-  cd react-redux-group-project
+  cd react-capstone-metrics-webapp
 
   npm install or npm i
 ```
@@ -167,7 +171,7 @@ You can deploy this project by transferring the files in your local repository o
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] **Dragons Papge**
+- [ ] **More Companies**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,7 +179,7 @@ You can deploy this project by transferring the files in your local repository o
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/MozamelJawad/react-redux-group-project/issues).
+Feel free to check the [issues page](https://github.com/mershark/react-capstone-metrics-webapp/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
