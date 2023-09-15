@@ -92,7 +92,7 @@
 
 ### 🚀 Video <a name="live-demo"></a>
 
-- [Video Walkthrough]()
+- [Video Walkthrough](https://drive.google.com/file/d/1QtoeZErMOQ6kJlajveVFaYioYadDGhxt/view?usp=sharing)
 
 ### Key Features <a name="key-features"></a>
 
