@@ -29,28 +29,30 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top: 28px;
+  padding-top: 40px;
   color: white;
-  align-items: center;
+  align-items: flex-end;
   font-family: 'Lato', sans-serif;
+  justify-content: flex-end;
+  padding-right: 15px;
+  text-decoration: none;
+  padding-bottom: 15px;
 }
 
 .name {
   padding: 0;
   margin: 0;
   text-decoration: none;
-  font-family: 'Lato', sans-serif;
+  text-align: end;
 }
 
 .symbol {
   padding: 0;
   margin: 0;
-  text-decoration: none;
 }
 
 .price {
   padding: 0;
   margin: 0;
-  text-decoration: none;
   font-family: 'Lato', sans-serif;
 }

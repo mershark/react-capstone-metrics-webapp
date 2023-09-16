@@ -38,6 +38,9 @@ const SingleCompanyInfo = () => {
         <img className="logo" src={image} alt="Logo" />
         <p className="company-logos">{name}</p>
       </div>
+      <div className="details-infoss">
+        <p>STATS BY COMPANY</p>
+      </div>
       <div className="company-details-container">
         <div className="details-info">
           <p>Ceo:</p>

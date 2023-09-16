@@ -194,7 +194,7 @@ Give a ⭐️ if you like this project!
 - Thanks to the Microverse team for the great curriculum.
 - Thanks to the Code Reviewer(s) for the insightful feedback.
 - Thanks to our coding partners, the morning session team and standup team for their coperation.
-- I would like to ackowledge Nelson Sakwa the author of the original design,
+- I would like to ackowledge original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

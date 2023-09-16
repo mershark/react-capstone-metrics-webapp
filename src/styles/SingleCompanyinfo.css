@@ -28,8 +28,20 @@
   gap: 15px;
 }
 
+.details-infoss {
+  display: flex;
+  background-color: #1758a0;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  height: 30px;
+  padding: 0;
+  padding-left: 5px;
+  align-items: center;
+}
+
 .details-infos {
-  background-color: #4369b2;
+  background-color: #1758a0;
   color: white;
   padding: 5px;
   display: flex;
@@ -39,7 +51,7 @@
 }
 
 .details-info {
-  background-color: #1758a0;
+  background-color: #4369b2;
   color: white;
   padding: 5px;
   display: flex;
@@ -66,6 +78,7 @@
 }
 
 a {
+  text-decoration: none;
   color: white;
   align-items: center;
   font-family: 'Lato', sans-serif;
