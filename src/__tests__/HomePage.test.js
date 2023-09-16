@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import { useSelector, useDispatch } from 'react-redux';
-import { toBeInTheDocument } from '@testing-library/jest-dom/extend-expect';
+// import { toBeInTheDocument } from '@testing-library/jest-dom/extend-expect';
 import HomePage from '../components/HomePage';
 
 jest.mock('react-redux', () => ({
