@@ -1,5 +1,5 @@
 .company-details {
-  background-color: #00385d;
+  background-color: #1758a0;
   color: white;
   padding: 10px;
 }
@@ -9,6 +9,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: #1758a0;
 }
 
 .nav-arrow {
@@ -21,7 +22,7 @@
 }
 
 .details-infos {
-  background-color: #1758a0;
+  background-color: #4369b2;
   color: white;
   padding: 5px;
   display: flex;
@@ -30,11 +31,9 @@
 }
 
 .details-info {
-  background-color: #00385d;
+  background-color: #1758a0;
   color: white;
   padding: 5px;
-  border-bottom: 1px solid white;
-  border-top: 1px solid white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -53,7 +52,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1758a0;
+  background-color: #4369b2;
 }
 
 a {
