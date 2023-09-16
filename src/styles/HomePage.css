@@ -30,12 +30,22 @@
   padding-top: 28px;
   color: white;
   align-items: center;
+}
+
+.name {
+  padding: 0;
+  margin: 0;
   text-decoration: none;
 }
 
-.name,
-.symbol,
+.symbol {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
 .price {
   padding: 0;
   margin: 0;
+  text-decoration: none;
 }

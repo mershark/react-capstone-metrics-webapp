@@ -28,8 +28,12 @@ const companyDataSlice = createSlice({
   initialState,
   reducers: {
     filterItems: (state, action) => {
-      // eslint-disable-next-line max-len
-      state.filteredItems = state.items.filter((item) => item.name.toLowerCase().includes(action.payload.toLowerCase()));
+      state.filteredItems = state.items.filter((item) => {
+        const output = item.name
+          .toLowerCase()
+          .includes(action.payload.toLowerCase());
+        return output;
+      });
     },
     setIsSearching: (state, action) => {
       state.isSearching = !!action.payload;
