@@ -1,31 +1,51 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { useSelector, useDispatch } from 'react-redux';
-// import { toBeInTheDocument } from '@testing-library/jest-dom/extend-expect';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import configureMockStore from 'redux-mock-store';
 import HomePage from '../components/HomePage';
+import '@testing-library/jest-dom';
 
-jest.mock('react-redux', () => ({
-  ...jest.requireActual('react-redux'),
-  useSelector: jest.fn(),
-  useDispatch: jest.fn(),
-}));
+const mockStore = configureMockStore();
+const store = mockStore({
+  companyData: {
+    loading: false,
+    error: null,
+    items: [
+      { name: 'Company 1', price: 100, symbol: 'C1' },
+      { name: 'Company 2', price: 200, symbol: 'C2' },
+    ],
+    filteredItems: [],
+    isSearching: false,
+  },
+});
 
 describe('HomePage component', () => {
-  it('displays loading state', () => {
-    useSelector.mockReturnValue({
-      loading: true,
-      error: null,
-      items: [],
-      filteredItems: [],
-      isSearching: false,
-    });
+  it('renders without errors', () => {
+    const { queryByText, getAllByTestId } = render(
+      <Provider store={store}>
+        <Router>
+          <HomePage />
+        </Router>
+      </Provider>,
+    );
 
-    const dispatchMock = jest.fn();
-    useDispatch.mockReturnValue(dispatchMock);
+    expect(queryByText('Loading, please wait!')).toBeNull();
 
-    const { getByText } = render(<HomePage />);
+    expect(queryByText('Error loading data, please try again!')).toBeNull();
 
-    const loadingText = getByText('Loading, please wait!');
-    expect(loadingText).toBeInTheDocument();
+    expect(queryByText('No Match found')).toBeNull();
+
+    const companyNames = getAllByTestId('company-name');
+    expect(companyNames.length).toBeGreaterThan(0);
+    expect(companyNames[0]).toHaveTextContent('Company 1');
+
+    const companySymbols = getAllByTestId('company-symbol');
+    expect(companySymbols.length).toBeGreaterThan(0);
+    expect(companySymbols[0]).toHaveTextContent('C1');
+
+    const companyPrices = getAllByTestId('company-price');
+    expect(companyPrices.length).toBeGreaterThan(0);
+    expect(companyPrices[0]).toHaveTextContent('100');
   });
 });
