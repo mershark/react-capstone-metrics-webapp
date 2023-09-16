@@ -2,6 +2,13 @@
   background-color: #1758a0;
   color: white;
   padding: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.company-logos {
+  color: white;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
 }
 
 .nav-icons {
@@ -28,6 +35,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-family: 'Lato', sans-serif;
 }
 
 .details-info {
@@ -38,6 +46,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Lato', sans-serif;
 }
 
 .company-details-image {
@@ -45,7 +54,8 @@
   margin-bottom: 8px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -58,6 +68,7 @@
 a {
   color: white;
   align-items: center;
+  font-family: 'Lato', sans-serif;
 }
 
 .loading {

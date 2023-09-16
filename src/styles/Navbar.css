@@ -1,5 +1,6 @@
 .navbar {
   background-color: #4369b2;
+  font-family: 'Lato', sans-serif;
 }
 
 .nav-date {
@@ -28,6 +29,7 @@
 .search {
   display: flex;
   justify-content: center;
+  font-family: 'Lato', sans-serif;
 }
 
 .search-bar {
@@ -35,4 +37,5 @@
   padding: 0;
   margin-bottom: 10px;
   border: 3px solid white;
+  font-family: 'Lato', sans-serif;
 }

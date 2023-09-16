@@ -36,6 +36,7 @@ const SingleCompanyInfo = () => {
       </div>
       <div className="company-details-image">
         <img className="logo" src={image} alt="Logo" />
+        <p className="company-logos">{name}</p>
       </div>
       <div className="company-details-container">
         <div className="details-info">
